@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:id="@+id/bell"
+        android:layout_width="200dp"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:src="@drawable/alarmbell">    
+    </ImageView>
+    
+    <TextView 
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Press bell to trigger alert"
+        android:textSize="20sp">
+    </TextView>
+    
+    <ImageView
+        android:id="@+id/warning"
+        android:layout_width="100dp"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/warning">    
+    </ImageView>
+    
+    <TextView 
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Press to trigger i think i am in danger"
+        android:textSize="19sp">
+    </TextView>
+    
+    </LinearLayout>
+
+</FrameLayout>

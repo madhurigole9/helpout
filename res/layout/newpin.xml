@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="7dp"
+            android:src="@drawable/redkey_final" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Change Pin"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                                
+        <LinearLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">            
+        
+        <TextView
+            android:id="@+id/tv_newpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter New Pin"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_newpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_pinconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm new pin"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_pinconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" >
+        </EditText>
+
+        
+    <Button
+        android:id="@+id/buttonnewpin"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save new pin" />
+    
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

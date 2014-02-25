@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuardianFragment" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="350dp" >
+        </ListView>
+	
+        
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv1"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:text="Add/Remove Guardians" />
+
+    </RelativeLayout>
+
+</FrameLayout>

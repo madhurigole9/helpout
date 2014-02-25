@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Alert users you might need help soon. Keep refreshing the counter to delay the alert. Cancel alarm in case the danger is over"
+            android:textColor="@android:color/black" >
+        </TextView>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="The Alarm will trigger automatically in"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="150sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="seconds"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" >
+        </TextView>
+
+        <!--  <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" /> -->
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="Refresh Counter" />
+        
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Cancel Alert" />
+
+</LinearLayout>

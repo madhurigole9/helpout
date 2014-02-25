@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/redquestionmark_final"
+            android:layout_margin="7dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="Need Help??"
+        android:textSize="30sp" />
+        
+        
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To understand how to use the app HelpOut Please view a demonstration of the app by checking the following links: "
+        android:layout_margin="7dp" 
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Part 1 (How to trigger the 2 alerts)"
+        android:layout_margin="7dp" 
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="http://youtu.be/En7OOAXBaOg"
+        android:layout_margin="7dp"  
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Part 2 (Add/Delete guardians and change settings)"
+        android:layout_margin="7dp" 
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:layout_margin="7dp" 
+        android:text="http://youtu.be/NrmeZQuaCEU"
+        android:textSize="20sp" />
+
+</LinearLayout>
